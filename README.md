@@ -25,6 +25,11 @@ Note: If you are using Amazon Linux 2 based OS on EC2 instance, use:
 pip install  dgl==1.1.2 -f https://data.dgl.ai/wheels/cu117/repo.html
 ```
 
+If on ubuntu 22.4, which comes with Cuda 12.1, use:
+```bash
+pip install dgl -f https://data.dgl.ai/wheels/torch-2.1/cu121/repo.html
+```
+
 ### Github fork based installation
 1. Fork the [OpenPOM](https://github.com/ARY2260/openpom) repository
 and clone the forked repository
